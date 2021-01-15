@@ -1,0 +1,60 @@
+.header{
+	background-image: url("file:///media/raf4/ee/development/electroauto-landing-page/src/img/jason-leung-unsplash-640x960.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color:#fff;
+}
+.header__marginwrapper{
+	margin: 0 6em;
+	padding-bottom: 2em;
+}
+.header__nav{
+	padding-bottom: 1em;
+}
+.header__hero{
+	display: grid;
+	grid-template-rows: 30px auto 500px auto 140px;
+	grid-template-columns: 1fr; 
+}
+.header__illustration_ct{
+	display: flex;
+	justify-content: center;
+	grid-row: 4/4;
+	grid-column: 1;
+}
+.header__illustration{
+	height: 24vh;
+}
+.header__info{
+	grid-row: 2/2;
+	grid-column: 1;
+	/*background-color: rgba(0,0,0, .4);*/
+}
+.header__title{
+	font-size: 4.6em;
+	font-weight: 800;
+  	background: -webkit-linear-gradient(#f7971e, rgba(255,219,47,1));
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	/*color: linear-gradient( 109.6deg,  rgba(255,219,47,1) 11.2%, rgba(244,253,0,1) 100.2% );*/
+	/*color: -webkit-linear-gradient(to right, #f7971e, #ffd200)ñ*/
+	color: #f7971e;
+}
+.header__parag{
+	font-size: 18px;
+	line-height: 32px;
+	padding-bottom: 2.6em;
+}
+.header__calltoaction{
+	padding: 1em 2em;
+	font-size: 18px;
+	background-color: rgba(255,219,47,1);
+	/*background-color: rgba(244,253,0,1);*/
+	color: #222;
+	text-decoration: none;
+	border-radius: 4px;
+
+	/*text-decoration: underline;*/
+	/*rgba(255,219,47,1)*/
+}

@@ -1,0 +1,26 @@
+.whats{
+	background-color: #a3e3b5;
+}
+.whats__wrapper{
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin: 0 6em;
+}
+.whats__imgcontainer{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.whats__img{
+	height: 24vh;
+}
+
+.whats__info{
+}
+
+.whats__calltoaction{
+	padding: 1em 2em;
+	text-decoration: none;
+	color: #fff;
+	background-color:green ;
+}

@@ -1,0 +1,12 @@
+.about{
+	padding-top: 3em;
+	padding-bottom: 6em;
+	background: linear-gradient(#f7971e, rgba(255,219,47,1));
+	background: -webkit-linear-gradient(#f7971e, rgba(255,219,47,1));
+	/*background: -webkit-linear-gradient(#f7971e, rgba(244,253,0,1));*/
+	
+}
+.about__container{
+	margin: 0 6em;
+
+}
