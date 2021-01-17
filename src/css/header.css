@@ -1,5 +1,5 @@
 .header{
-	background-image: url("root/src/img/jason-leung-unsplash-640x960.jpg");
+	background-image: url("file:///root/src/img/jason-leung-unsplash-640x960.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
