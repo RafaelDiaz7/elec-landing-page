@@ -6,16 +6,34 @@
 	padding-bottom: 2em;
 	margin: 0 6em;
 }
+.whats__gridcontainer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto; 
+}
 .whats__imgcontainer{
 	display: flex;
+	align-items: center;
 	justify-content: flex-start;
+	grid-column: 1/2;
+	grid-row: 1/1;
 }
 
 .whats__img{
-	height: 24vh;
+	height: 20vh;
 }
 
 .whats__info{
+	grid-column: 2/3;
+	grid-row: 1/1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.whats__title{
+	font-size: 1.9em;
 }
 
 .whats__calltoaction{
