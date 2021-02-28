@@ -1,6 +1,6 @@
 .about{
-	padding-top: 3em;
-	padding-bottom: 6em;
+	padding-top: 140px;
+	padding-bottom: 140px;
 	background: linear-gradient(#f7971e, rgba(255,219,47,1));
 	background: -webkit-linear-gradient(#f7971e, rgba(255,219,47,1));
 	/*background: -webkit-linear-gradient(#f7971e, rgba(244,253,0,1));*/
@@ -8,5 +8,19 @@
 }
 .about__container{
 	margin: 0 6em;
+	text-align: center;
 
+}
+
+.about__container h4 {
+	margin-bottom: 1.8em;
+	font-size: 3em;
+}
+
+.about__container .content-text {
+	padding-bottom: 40px;
+}
+
+.darkgrey{
+	color: #000;
 }
