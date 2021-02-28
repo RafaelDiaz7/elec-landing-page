@@ -1,5 +1,6 @@
 .diagram{
-	background-color: #111;
+	background-color: #444;
+	padding: 70px 0;
 }
 
 .center-ct{
@@ -31,4 +32,13 @@
 	grid-row: 1;
 	grid-column: 3/ span 2;
 	background-color: rgba(255,219,47,0.7);
+}
+
+.diagram__leftword{
+	padding-left: 9em;
+	
+}
+
+.diagram__rightword{
+	padding-left: 10em; 
 }
