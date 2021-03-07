@@ -1,14 +1,27 @@
 .diagram{
-	background-color: #444;
-	padding: 70px 0;
+	background-color: #e2e2e2;
+	padding: 60px 0;
 }
 
 .center-ct{
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 }
 
+.center-ct h3 {
+	font-size: 32px;
+}
 
+.center-ct p {
+	font-size: 22px;
+}
+
+.diagram__img{
+	width: 100%;
+}
+
+/*
 .diagram__gridcontainer{
 	display: grid;
 	grid-template-rows: 1fr;
@@ -48,3 +61,4 @@
 .diagram__rightword{
 	font-size: 40px;
 }
+*/

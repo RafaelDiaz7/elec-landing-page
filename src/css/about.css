@@ -23,4 +23,7 @@
 
 .darkgrey{
 	color: #000;
+	font-size: 15px;
+	text-decoration: none;
+	border-bottom: 1px solid #222;
 }
