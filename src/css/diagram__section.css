@@ -4,21 +4,21 @@
 }
 
 .center-ct{
-	display: flex;
-	justify-content: center;
+	/*display: flex;
 	flex-direction: column;
+	align-items: center;*/
 }
-
+/*
 .center-ct h3 {
 	font-size: 32px;
-}
-
-.center-ct p {
-	font-size: 22px;
-}
+}*/
 
 .diagram__img{
 	width: 100%;
+}
+
+.diagram__link--margint{
+	margin-top: 40px;
 }
 
 /*
