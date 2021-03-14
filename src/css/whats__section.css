@@ -2,9 +2,9 @@
 	background-color: #a3e3b5;
 }
 .whats__wrapper{
-	padding-top: 2em;
+	padding-top: 1em;
 	padding-bottom: 2em;
-	margin: 0 6em;
+	margin: 0 3em;
 }
 .whats__gridcontainer{
 	display: grid;
@@ -33,12 +33,13 @@
 }
 
 .whats__title{
-	font-size: 1.9em;
+	margin-bottom: 10px;
+	font-size: 1.2em;
 }
 
 .whats__calltoaction{
-	padding: 1em 1em;
+	padding: 0.4em 0.6em;
 	text-decoration: none;
 	color: #fff;
-	background-color:green ;
+	background-color:green;
 }

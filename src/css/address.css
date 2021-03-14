@@ -1,6 +1,8 @@
 .address{
-	padding: 2em 6em;
-	background-color: #999;
+	padding: 2em 3em;
+	background-color: #555;
 }
 .address__title{
+	color: #fff;
+	font-weight: 400;
 }

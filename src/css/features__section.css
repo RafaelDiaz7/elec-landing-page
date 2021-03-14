@@ -3,18 +3,20 @@
 }
 
 .features__wrapper{
-	margin: 6em 6em;
+	margin: 3em 3em;
 }
 
 .features__title{
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
-.features__container{}
+.features__container .features__list {
+	padding-left: 10px;
+}
 
 .features__list{
 	display: grid;
-	grid-template-rows: 4em auto 6em auto 6em auto 6em auto 4em;
+	grid-template-rows: 2em auto 4em auto 4em auto 4em auto 2em;
 	grid-template-columns: 1fr;
 }
 

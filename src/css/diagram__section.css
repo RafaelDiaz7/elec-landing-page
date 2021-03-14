@@ -1,6 +1,6 @@
 .diagram{
 	background-color: #e2e2e2;
-	padding: 60px 0;
+	padding: 40px 0;
 }
 
 .center-ct{
@@ -8,10 +8,9 @@
 	flex-direction: column;
 	align-items: center;*/
 }
-/*
 .center-ct h3 {
-	font-size: 32px;
-}*/
+	font-size: 1.2em;
+}
 
 .diagram__img{
 	width: 100%;

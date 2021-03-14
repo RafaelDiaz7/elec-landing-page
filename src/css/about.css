@@ -1,20 +1,20 @@
 .about{
-	padding-top: 140px;
-	padding-bottom: 140px;
+	padding-top: 70px;
+	padding-bottom: 60px;
 	background: linear-gradient(#f7971e, rgba(255,219,47,1));
 	background: -webkit-linear-gradient(#f7971e, rgba(255,219,47,1));
 	/*background: -webkit-linear-gradient(#f7971e, rgba(244,253,0,1));*/
 	
 }
 .about__container{
-	margin: 0 6em;
+	margin: 0 3em;
 	text-align: center;
 
 }
 
 .about__container h4 {
-	margin-bottom: 1.8em;
-	font-size: 3em;
+	margin-bottom: 1.2em;
+	font-size: 1.5em;
 }
 
 .about__container .content-text {
