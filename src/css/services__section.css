@@ -1,0 +1,55 @@
+.services{
+    background-image: url('file:///C:/Users/User1/Documents/elec-landing-page/src/svgss/services-bg.svg');
+    /* background-image: url('file:///root/src/svgss/services-bg.svg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.services__cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: .4em;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0.7 420px;
+    max-width: 450px;
+    overflow: hidden;
+    color: #000;
+    background: #ffffff;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.card__image{
+    flex: 0 0 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.card__info{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem;
+}
+
+.card__snippet{
+    margin-bottom: 0.5rem;
+}
+
+.card__link{
+    margin-top: auto;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    color:#444;
+}

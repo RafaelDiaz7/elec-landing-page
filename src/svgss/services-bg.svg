@@ -1,0 +1,26 @@
+<svg width="414" height="736" viewBox="0 0 414 736" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M306 0H0V103H306V0Z" fill="#FFDB2F" fill-opacity="0.37"/>
+<path d="M414 51H108V154H414V51Z" fill="#FFDB2F" fill-opacity="0.37"/>
+<path d="M414 0H167V79H414V0Z" fill="#F7971E" fill-opacity="0.47"/>
+<path d="M207 0H0V736H207V0Z" fill="#F7971E" fill-opacity="0.2"/>
+<path d="M414 0H167V736H414V0Z" fill="#FFDB2F" fill-opacity="0.23"/>
+<path d="M54 232L54 479H162V232H54Z" fill="#C4C4C4" fill-opacity="0.25"/>
+<path d="M0 206L0 453H108L108 206H0Z" fill="#F7971E" fill-opacity="0.2"/>
+<path d="M108 257L414 257V154L108 154V257Z" fill="#FFDB2F" fill-opacity="0.37"/>
+<path d="M108 529H414L414 257L108 257L108 529Z" fill="#FFDB2F" fill-opacity="0.37"/>
+<path d="M0 206L306 206V103L0 103V206Z" fill="#FFDB2F" fill-opacity="0.37"/>
+<path d="M0 257L247 257V178L0 178V257Z" fill="black" fill-opacity="0.28"/>
+<path d="M360 658V411H252V658H360Z" fill="#C4C4C4" fill-opacity="0.25"/>
+<path d="M414 684V437H306V684H414Z" fill="#F7971E" fill-opacity="0.2"/>
+<path d="M306 637H0.00012207V736H306V637Z" fill="#FFDB2F" fill-opacity="0.37"/>
+<path d="M306 361H0.00012207V637H306V361Z" fill="#FFDB2F" fill-opacity="0.37"/>
+<path d="M414 657H167V736H414V657Z" fill="black" fill-opacity="0.19"/>
+<path d="M247 330H0V888H247V330Z" fill="#F7971E" fill-opacity="0.55"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="414" height="736" fill="white"/>
+</clipPath>
+</defs>
+</svg>
