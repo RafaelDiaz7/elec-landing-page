@@ -1,6 +1,6 @@
 .services{
-    background-image: url('file:///C:/Users/User1/Documents/elec-landing-page/src/svgss/services-bg.svg');
-    /* background-image: url('file:///root/src/svgss/services-bg.svg'); */
+    background-image: url('/src/svgss/services-bg.svg');
+    background-image: url('file:///C:/Users/User1/Documents/elec-landing-page/src/svgss/services-bg.svg'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
