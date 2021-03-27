@@ -1,10 +1,14 @@
 .services{
-    background-image: url('/src/svgss/services-bg.svg');
-    background-image: url('file:///C:/Users/User1/Documents/elec-landing-page/src/svgss/services-bg.svg'); 
+    background-image: url('https://rafaeldiaz7.github.io/elec-landing-page/src/svgss/services-bg-2.svg');
+    /* background-image: url('file:///C:/Users/User1/Documents/elec-landing-page/src/svgss/services-bg-2.svg');  */
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-    padding-top: 1em;
+    background-position: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.services__title{
     padding-bottom: 1em;
 }
 
@@ -19,12 +23,12 @@
 .card{
     display: flex;
     flex-direction: column;
-    flex: 1 0.7 420px;
+    flex: 1 0.7 400px;
     max-width: 450px;
     overflow: hidden;
     color: #000;
     background: #ffffff;
-    border-radius: 2px;
+    border-radius: 3px;
     text-decoration: none;
 }
 
@@ -42,14 +46,20 @@
     padding: 1rem;
 }
 
+.card__title{
+    margin-top: .2em;
+    margin-bottom: 0;
+}
+
 .card__snippet{
-    margin-bottom: 0.5rem;
+    margin-top: .8em;
+    margin-bottom: 1em;
 }
 
 .card__link{
     margin-top: auto;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
     color:#444;
 }
