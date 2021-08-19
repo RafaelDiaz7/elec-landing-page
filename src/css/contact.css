@@ -9,6 +9,7 @@
 .form-title-group{
 	color: #fff;
 	margin-bottom: 30px;
+	text-align: center;
 }
 
 .form-title-group > h1 {
@@ -22,14 +23,25 @@
 	font-weight: 200;
 }
 
+.form__container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .form{
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
+	width: 100%;
+	
 }
 
 .form > input {
 	height: 48px;
 	margin-bottom: 15px;
+	/*flex: 1 0.7 48px;
+    max-width: 500px;*/
 }
 
 /*.form-group{
@@ -38,9 +50,6 @@
 	margin-bottom: 1.2rem;
 }*/
 
-.form-title-group{
-	text-align: center;
-}
 
 .form-btn{
 	height: 48px;
@@ -51,4 +60,10 @@
 	font-weight: 500;
 	font-family: 'Roboto';
 	fill: #fff;
+}
+
+@media only screen and (min-width: 600px){
+	.form{
+		width: 520px;
+	}
 }

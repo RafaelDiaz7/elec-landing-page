@@ -21,7 +21,7 @@
 }
 
 .feature{
-	padding-bottom: 2em;
+	padding-bottom: .6em;
 	border-bottom: .2em solid #999;
 	list-style: none;
 }
@@ -46,7 +46,47 @@
 	grid-column: 1/2;
 }
 
+.feature > h3{
+	font-weight: normal;
+}
+
+.feature > p{
+	color: #444;
+	font-size: 0.889rem;
+}
+
 .feature__icon{
 	height: 11.8vh;
 }
 
+@media only screen and (min-width: 650px){
+	.features__list{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		column-gap: 1.2em;
+		row-gap: 1.4em;
+	}
+
+	.feature{
+		width: 47%;
+	}
+}
+
+/* Puede que si puede que no, queda mas o menos, pero tambien pienso que en este tipo de 
+proyectos de landing page para promocionar este detalle puede ser opcional para el cliente si prefiere
+que sea cada caracteristica en cajas pequenas en pantallas grandes o cajas medianas que se dividirian en
+dos filas y dos columnas. */
+@media only screen and (min-width: 1045px){
+	.features__list{
+		display: inline-flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		column-gap: 1.4em;
+		row-gap: 1.4em;
+	}
+
+	.feature{
+		width: 23%;
+	}
+}

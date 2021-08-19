@@ -8,7 +8,7 @@
 }
 .header__marginwrapper{
 	margin: 0 2em;
-	padding-top: 2em;
+	padding-top: 0.5em;
 	padding-bottom: 2em;
 }
 .header__nav{
@@ -65,11 +65,34 @@
 
 @media only screen and (min-width: 768px) {
   .header__title{
-  	font-size: 3em;
+  	font-size: 2.7em;
   }
 
   .header__calltoaction{
   	font-size: 20px;
   	padding: 0.5em 0.5em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .header__hero{
+		display: grid;
+		grid-template-rows: 5px auto 20px 120px 160px;
+		grid-template-columns: 1fr; 
+	}	
+
+  .header__title{
+  	font-size: 2.8em;
+  }
+
+  .header__calltoaction{
+  	font-size: 20px;
+  	padding: 0.5em 0.5em;
+  }
+
+  .header{
+  	background-image: url("https://unsplash.com/photos/bKlYc9g6MrM/download?force=true&w=1920");
+  	background-size: cover;
+  	background-position: center;
   }
 }

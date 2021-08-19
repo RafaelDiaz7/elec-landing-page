@@ -4,9 +4,9 @@
 }
 
 .center-ct{
-	/*display: flex;
+	display: flex;
 	flex-direction: column;
-	align-items: center;*/
+	align-items: center;
 }
 .center-ct h3 {
 	font-size: 1.2em;
@@ -18,6 +18,12 @@
 
 .diagram__link--margint{
 	margin-top: 40px;
+}
+
+@media only screen and (min-width: 1024px) {
+	.diagram__img{
+		width: 50%;
+	}
 }
 
 /*
