@@ -8,7 +8,7 @@
 }
 .header__marginwrapper{
 	margin: 0 2em;
-	padding-top: 0.5em;
+	padding-top: 1.3em;
 	padding-bottom: 2em;
 }
 .header__nav{
@@ -35,7 +35,7 @@
 	/*background-color: rgba(0,0,0, .4);*/
 }
 .header__title{
-	font-size: 2em;
+	font-size: 2.2em;
 	font-weight: 800;
   	background: -webkit-linear-gradient(#f7971e, rgba(255,219,47,1));
   	background-clip: text;
@@ -75,9 +75,14 @@
 }
 
 @media only screen and (min-width: 1024px) {
+  .header{
+  	height: 94vh;
+    	min-height: 860px;
+  }
   .header__hero{
 		display: grid;
-		grid-template-rows: 5px auto 20px 120px 160px;
+		/*grid-template-rows: 5px auto 20px 120px 160px;*/
+		grid-template-rows: 5px auto 20px 90px 100px;
 		grid-template-columns: 1fr; 
 	}	
 
