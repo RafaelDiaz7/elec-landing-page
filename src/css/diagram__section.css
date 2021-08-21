@@ -13,7 +13,16 @@
 }
 
 .diagram__img{
+	position: relative;
+	top: 100px;
 	width: 100%;
+	opacity: 0;
+}
+
+.diagram__content{
+	position: relative;
+	top: 140px;
+	opacity: 0;
 }
 
 .diagram__link--margint{
