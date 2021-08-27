@@ -37,11 +37,11 @@
 	
 }
 
-.form > input {
+.text__input {
+	padding-left: 10px;
 	height: 48px;
 	margin-bottom: 15px;
-	/*flex: 1 0.7 48px;
-    	max-width: 500px;*/
+	color: #444;
 }
 
 /*.form-group{
@@ -53,6 +53,7 @@
 
 .form-btn{
 	height: 48px;
+	margin-bottom: 15px;
 	background-color: #F7971E;
 	border-color: #F7971E;
 	color: #fff;

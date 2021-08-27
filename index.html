@@ -14,7 +14,8 @@
 	<link rel="stylesheet" type="text/css" href="src/css/whats__section.css">
 	<link rel="stylesheet" type="text/css" href="src/css/diagram__section.css">
 	<link rel="stylesheet" type="text/css" href="src/css/contact.css">
-	<link rel="stylesheet" href="src/css/services__section.css">
+	<link rel="stylesheet" type="text/css" href="src/css/services__section.css">
+	<link rel="stylesheet" type="text/css" href="src/css/footer.css">
 </head>
 <body>
 	<header class="header">
@@ -178,17 +179,24 @@
 			</div>
 			<div class="form__container">
 				<form class="form" method="post">
-					<input type="text" name="name" value="Nombre">
-					<input type="text" name="lastname" value="Apellido">
-					<input type="email" name="email" value="Email">
+					<input class="text__input" type="text" name="name" value="Nombre">
+					<input class="text__input" type="text" name="lastname" value="Apellido">
+					<input class="text__input" type="email" name="email" value="Email">
 					<input class="form-btn" type="submit" name="submit" value="Enviar">
 				</form>
 			</div>
 		</div>
 	</section>
 
-	<footer style="background-color: grey;">
-		footer
+	<footer class="footer">
+		<div class="footer__wrapper">
+			<ul class="footer__navigation">
+				<li class="footer__item"><a href="#">SOBRE NOSOTROS</a></li>
+				<li class="footer__item"><a href="#">NUESTRAS HABILIDADES</a></li>
+				<li class="footer__item"><a href="#">SERVICIOS</a></li>
+				<li class="footer__item"><a href="#">CONTACTO</a></li>
+			</ul>
+		</div>
 	</footer>
 	<script src="src/js/smooth-scroll.js"></script>
 	<script src="src/js/anime.js"></script>

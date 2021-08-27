@@ -59,7 +59,8 @@
 .card__link{
     margin-top: auto;
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 14px;
+    letter-spacing: .05em;
+    font-weight: 600;
+    font-size: 0.667em;
     color:#444;
 }
