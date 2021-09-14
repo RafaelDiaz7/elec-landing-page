@@ -36,7 +36,7 @@
 		</div>
 	</header>
 	
-	<section class="about">
+	<section id="about" class="about">
 		<div class="about__container">
 			<h4>Somos Especialistas en Electrónica Automotriz.</h4>
 			<p class="content-text">Ayudamos a personas que no saben como solucionar ese problema del sistema electrónico o eléctrico de su carro.</p>
@@ -44,7 +44,7 @@
 		</div>
 	</section>
 
-	<section class="diagram">
+	<section id="diagram" class="diagram">
 		<div class="features__wrapper">
 			<div class="center-ct">
 				<img class="diagram__item diagram__img" src="src/img/diagram.svg">
@@ -55,13 +55,13 @@
 				cillum dolore eu fugiat nulla pariatur.</p>
 
 				<!-- As design strategists, we bridge the gap between strategy conceived and strategy executed. We align the goals of your organization to the needs of your customers. -->
-				<p class="diagram__link--margint"><a class="darkgrey" href="#">Navegar por nuestros servicios</a></p>
+				<p class="diagram__link--margint"><a class="darkgrey" href="#services">Navegar por nuestros servicios</a></p>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="features__sect">
+	<section id="features" class="features__sect">
 		<div class="features__wrapper">
 			<div><h2 class="features__title">Lo que nos diferencia</h2></div>
 			<div class="features__container">
@@ -106,7 +106,7 @@
 		</div>
 	</section> -->
 
-	<section class="services">
+	<section id="services" class="services">
 		<div class="features__wrapper">
 			<h2 class="services__title">Nuestros Servicios</h2>
 			<div class="services__cards">
@@ -172,7 +172,7 @@
 		</div>
 	</section> -->
 
-	<section class="contact-section">
+	<section id="contact" class="contact-section">
 		<div class="contact__wrapper">
 			<div class="form-title-group">
 				<h1>Reserva una cita ahora</h1>
@@ -192,11 +192,14 @@
 	<footer class="footer">
 		<div class="footer__wrapper">
 			<ul class="footer__navigation">
-				<li class="footer__item"><a href="#">SOBRE NOSOTROS</a></li>
-				<li class="footer__item"><a href="#">NUESTRAS HABILIDADES</a></li>
-				<li class="footer__item"><a href="#">SERVICIOS</a></li>
-				<li class="footer__item"><a href="#">CONTACTO</a></li>
+				<li class="footer__item"><a href="#about">SOBRE NOSOTROS</a></li>
+				<li class="footer__item"><a href="#features">NUESTRAS HABILIDADES</a></li>
+				<li class="footer__item"><a href="#services">SERVICIOS</a></li>
+				<li class="footer__item"><a href="#contact">CONTACTO</a></li>
 			</ul>
+		</div>
+		<div class="copyright">
+			<p>©2021 Car service LLC | Desarrollado por Rafael Diaz</p>
 		</div>
 	</footer>
 	<script src="src/js/smooth-scroll.js"></script>

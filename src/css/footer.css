@@ -25,3 +25,14 @@
 	letter-spacing: .05em;
 	text-decoration: none;
 }
+
+.copyright{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.copyright > p {
+	font-size: 12px;
+	color: #999;
+}
