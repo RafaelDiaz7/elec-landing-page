@@ -1,3 +1,59 @@
+//Header title animation
+window.addEventListener("load", function(event){
+  let headerTitle = document.querySelector('h1.header__title');
+  headerTitle.style.opacity = 0;
+  let opacityAnimation = anime({
+        targets: headerTitle,
+        keyframes: [
+          {
+            opacity: 1,
+          },
+        ],
+        duration: 1900,
+        easing: 'easeInOutCubic'
+      });
+  let colors = {
+    start: '#f7971e',
+    end: '#ffdb2f',
+  };
+  let linearGradientAnimation = anime({
+    targets: colors,
+    start: '#ffdb2f',
+    end: '#f7971e',
+    duration: 2000,
+    easing: 'cubicBezier(.5, .05, .1, .3)',
+    round: 1,
+    autoplay: true,
+    loop: true,
+    direction: 'alternate',
+    update: function(a) {
+      let value1 = a.animations[0].currentValue;
+      let value2 = a.animations[1].currentValue;
+      // el.style.background = 'linear-gradient(180deg, '+value1+' 0%, '+value2+' 100%)'
+      // headerTitle.style.backgroundImage = 'linear-gradient(45deg, '+value1+' 0%, '+value2+' 100%)'
+      headerTitle.style.backgroundImage = 'linear-gradient('+value1+', '+value2+')';
+    }
+  });
+
+  let callToAction = document.querySelector('.header__calltoaction');
+  let ctaAnimation = anime({
+    targets: callToAction,
+    keyframes: [
+      {
+        color: '#444'
+      },
+      {
+        backgroundColor: '#ffdb2f'
+      },
+      {
+        color: '#000'
+      },
+    ],
+    duration: 1000,
+    easing: 'cubicBezier(.5, .05, .1, .3)',
+  });
+});
+
 
 //Diagram animation
 const observer = new IntersectionObserver(entries => {
