@@ -6,7 +6,7 @@ window.addEventListener("load", function(event){
         targets: headerTitle,
         keyframes: [
           {
-            opacity: 1,
+            opacity:1,
           },
         ],
         duration: 1900,
