@@ -1,11 +1,12 @@
 section.carousel-section {
   background: transparent;
-  padding:2em 0 .5em 0;
+  padding:2em 1.4em 1.4em 1.4em;
 }
 
-.slideshow {
+/*.slideshow {
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
-}
+}*/
+
 .slideshow .slide img {
   max-width: 100%;
   width: 100%;

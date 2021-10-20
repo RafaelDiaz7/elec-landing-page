@@ -1,7 +1,6 @@
 //Header title animation
 window.addEventListener("load", function(event){
   let headerTitle = document.querySelector('h1.header__title');
-  headerTitle.style.opacity = 0;
   let opacityAnimation = anime({
         targets: headerTitle,
         keyframes: [

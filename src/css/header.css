@@ -44,7 +44,7 @@
 	/*color: linear-gradient( 109.6deg,  rgba(255,219,47,1) 11.2%, rgba(244,253,0,1) 100.2% );*/
 	/*color: -webkit-linear-gradient(to right, #f7971e, #ffd200)ñ*/
 	color: #f7971e;
-	mix-blend-mode: difference;
+    opacity:0;
 }
 .header__parag{
 	font-size: 18px;
