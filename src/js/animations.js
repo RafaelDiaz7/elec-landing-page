@@ -1,3 +1,14 @@
+// Open and close sidenav
+function w3_open() {
+    document.getElementById("mySidenav").style.width = "100%";
+    document.getElementById("mySidenav").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+
+
 //Header title animation
 window.addEventListener("load", function(event){
   let headerTitle = document.querySelector('h1.header__title');

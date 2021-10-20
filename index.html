@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="src/css/carousel.css">
     <link rel="stylesheet" type="text/css" href="src/css/footer.css">
     <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css">
     
@@ -26,10 +27,25 @@
 </head>
 <body>
 	<header class="header">
-		<div class="header__marginwrapper">
-		<nav class="header__nav"><div><svg width="64" height="61.25" viewBox="0 0 512 490" fill="none" xmlns="http://www.w3.org/2000/svg">
+		        <nav class="sidenav bg-black center animate-top w3-center w3-xxlarge" style="display:none;padding-top:150px" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#about">SOBRE NOSOTROS</a>
+  <a href="#features">NUESTRAS HABILIDADES</a>
+  <a href="#services">SERVICIOS</a>
+  <a href="#contact">CONTACTANOS</a>
+
+</nav>
+        <div class="header__marginwrapper">
+
+		<div class="header__nav"><div><svg width="64" height="61.25" viewBox="0 0 512 490" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M510.42 133.923C510.416 133.914 510.42 133.906 510.414 133.896L428.829 5.24286C426.958 2.29286 423.709 0.505859 420.216 0.505859H91.785C88.292 0.505859 85.042 2.29386 83.172 5.24286L1.586 133.895C1.576 133.91 1.577 133.925 1.57 133.94C0.58 135.512 0 137.365 0 139.358V479.295C0 484.927 4.566 489.494 10.199 489.494H501.801C507.434 489.494 512 484.927 512 479.295V139.358C512 137.358 511.416 135.497 510.42 133.923ZM97.393 20.9039H414.607L483.257 129.158H28.744L97.393 20.9039ZM144.342 469.096H115.58V420.984H144.342V469.096ZM347.259 469.096H164.741V420.984H347.26V469.096H347.259ZM202.873 400.586V380.192H309.126V400.586H202.873ZM396.42 469.096H367.658V420.984H396.42V469.096ZM416.292 400.585H329.524V369.991C329.524 364.359 324.958 359.792 319.325 359.792H192.674C187.041 359.792 182.475 364.359 182.475 369.991V400.585H95.707V329.2C95.707 319.253 103.801 311.159 113.749 311.159H398.25C408.198 311.159 416.291 319.253 416.291 329.2V400.585H416.292ZM228.02 219.373C228.02 225.005 232.586 229.572 238.219 229.572H269.598C275.231 229.572 279.797 225.005 279.797 219.373C279.797 213.741 275.231 209.174 269.598 209.174H264.108V201.333H345.678L386.56 290.761H125.442L166.323 201.333H243.708V209.174H238.218C232.586 209.174 228.02 213.741 228.02 219.373ZM491.602 469.096H416.818V420.984H426.492C432.125 420.984 436.691 416.417 436.691 410.785V329.201C436.691 312.027 425.369 297.45 409.798 292.536L361.505 186.895C359.846 183.264 356.221 180.936 352.229 180.936H159.772C155.78 180.936 152.155 183.264 150.496 186.895L102.203 292.536C86.632 297.451 75.31 312.028 75.31 329.201V410.785C75.31 416.417 79.876 420.984 85.509 420.984H95.183V469.096H20.398V149.557H491.601V469.096H491.602Z" fill="#fff"/>
-</svg></div></nav>
+</svg></div>
+        
+<span onclick="w3_open()"><i class="fa fa-bars" style="font-size:1.8em;"></i></span> 
+        
+        </div>
 		<section class="header__hero">
 			<div class="header__illustration_ct">
 				<div class="header__illustration"></div>
