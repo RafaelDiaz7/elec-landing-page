@@ -6,10 +6,18 @@ window.addEventListener("load", function(event){
         targets: headerTitle,
         keyframes: [
           {
+            opacity:0.8,
+          },
+          {
             opacity:1,
           },
+          {
+            update: function (e) {
+              e.style.mixBlendMode='normal';
+            },
+          },
         ],
-        duration: 1900,
+        duration: 2700,
         easing: 'easeInOutCubic'
       });
   let colors = {
@@ -24,7 +32,7 @@ window.addEventListener("load", function(event){
     easing: 'cubicBezier(.5, .05, .1, .3)',
     round: 1,
     autoplay: true,
-    loop: true,
+    loop: 5,
     direction: 'alternate',
     update: function(a) {
       let value1 = a.animations[0].currentValue;
@@ -205,4 +213,9 @@ inputsArray[2].addEventListener("focusout", function() {
     });
 });*/
 
-
+/*
+const testConst = {
+    f: function(){
+        
+    }
+}*/
