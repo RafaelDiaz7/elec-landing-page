@@ -1,3 +1,53 @@
+.header__nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.navcontent {
+	max-width: 980px;
+	margin: auto;
+}
+
+.bg-black{
+    background-color:#000;
+}
+
+.center{ text-align:center;}
+
+.sidenav{
+	-webkit-transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s,filter 0.3s;
+	transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s,filter 0.3s;
+	height:100%;
+	position:fixed!important;
+	z-index:1;
+	overflow:auto;
+	font-size:30px; /* to do: convert to em*/
+	padding-top: 150px;
+        width: 100%;
+}
+.sidenav a{
+	padding:4px 2px .4em 6px;
+	display:block;
+	text-decoration:none;
+	color:#ccc;
+
+}
+.sidenav a:hover{color:#fff}
+
+.display-topright{
+	position:absolute;
+	right:0;
+	top:0;
+	font-size:60px;
+	background-color:#444;
+}
+
+.animate-top{position:relative;-webkit-animation:animatetop 0.4s;animation:animatetop 0.4s}
+@-webkit-keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+
+.w3-closenav, .w3-opennav{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+
 .header{
 	background-image: url("https://unsplash.com/photos/qUrJ7sGna4Q/download?force=true&w=640");
 /* 	background-image: url("file:///root/src/img/jason-leung-unsplash-640x960.jpg"); */
