@@ -23,7 +23,7 @@ function smoothScroll(target,duration){
 	requestAnimationFrame(animation);
 }
 
-var actionlink = document.querySelector('.header__calltoaction');
+let actionlink = document.querySelector('.header__calltoaction');
 actionlink.addEventListener('click', function (){
 	smoothScroll('.about',1000);
 });

@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 .about{
 	padding-top: 70px;
 	padding-bottom: 60px;

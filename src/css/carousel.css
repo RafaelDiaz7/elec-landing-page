@@ -15,3 +15,21 @@ section.carousel-section {
 .slideshow .slick-next:before {
   color: black;
 }
+
+@media only screen and (min-width: 600px){
+  .carousel-section{
+    display: flex;
+    justify-content: center;
+  }
+  .carousel-section .slideshow{
+    height: 300px;
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 650px){
+  .carousel-section .slideshow{
+    height: 400px;
+    width: 600px;
+  }
+}

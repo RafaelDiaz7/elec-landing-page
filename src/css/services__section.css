@@ -59,8 +59,17 @@
 .card__link{
     margin-top: auto;
     text-transform: uppercase;
-    letter-spacing: .05em;
+    letter-spacing: .06em;
     font-weight: 700;
-    font-size: 0.667em;
+    font-size: 0.67em;
     color:#444;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card:hover{
+    -webkit-box-shadow: 1px 12px 17px -1px rgba(0,0,0,0.35);
+    -moz-box-shadow: 1px 12px 17px -1px rgba(0,0,0,0.35);
+    box-shadow: 1px 12px 17px -1px rgba(0,0,0,0.35);
+    transition: box-shadow 1s;
 }
