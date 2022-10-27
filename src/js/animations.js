@@ -103,12 +103,6 @@ const observer = new IntersectionObserver(entries => {
         easing: 'easeInOutCubic'
       });
       
-      /*anime({
-        targets: '.diagram__content',
-        opacity: 1,
-        translateY: -140,
-        easing: 'easeInOutQuad'
-      });*/
     return; // if we added the class, exit the function
     }
 
@@ -117,6 +111,45 @@ const observer = new IntersectionObserver(entries => {
   });
 });
 observer.observe(document.querySelector('.center-ct'));
+
+//About animation
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    // let diagramItems = entry.target.querySelectorAll('.diagram__item');
+
+    if (entry.isIntersecting) {
+      anime({
+        targets: '.diagram__img',
+        keyframes: [
+          {
+            opacity: 1,
+            translateX: -100,
+          },
+        ],
+        duration: 1900,
+        easing: 'easeInOutCubic'
+      });
+
+      anime({
+        targets: '.diagram__content',
+        keyframes: [
+          {
+            opacity: 1,
+            translateX: -140,
+          },
+        ],
+        duration: 1900,
+        easing: 'easeInOutCubic'
+      });
+      
+    return; // if we added the class, exit the function
+    }
+
+    // We're not intersecting, so remove the class!
+    // square.classList.remove('square-animation');
+  });
+});
+observer.observe(document.querySelector('.about__container'));
 
 
 
