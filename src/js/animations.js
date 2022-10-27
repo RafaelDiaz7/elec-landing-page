@@ -113,7 +113,7 @@ const observer = new IntersectionObserver(entries => {
 observer.observe(document.querySelector('.center-ct'));
 
 //About animation
-const observer = new IntersectionObserver(entries => {
+const observer1 = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     // let diagramItems = entry.target.querySelectorAll('.diagram__item');
 
@@ -149,7 +149,7 @@ const observer = new IntersectionObserver(entries => {
     // square.classList.remove('square-animation');
   });
 });
-observer.observe(document.querySelector('.about__container'));
+observer1.observe(document.querySelector('.about__container'));
 
 
 
