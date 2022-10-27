@@ -119,19 +119,7 @@ const observer1 = new IntersectionObserver(entries => {
 
     if (entry.isIntersecting) {
       anime({
-        targets: '.diagram__img',
-        keyframes: [
-          {
-            opacity: 1,
-            translateX: -100,
-          },
-        ],
-        duration: 1900,
-        easing: 'easeInOutCubic'
-      });
-
-      anime({
-        targets: '.diagram__content',
+        targets: '.about__container',
         keyframes: [
           {
             opacity: 1,
