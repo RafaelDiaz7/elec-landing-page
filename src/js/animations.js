@@ -123,7 +123,7 @@ const observer1 = new IntersectionObserver(entries => {
         keyframes: [
           {
             opacity: 1,
-            translateX: 300,
+            translateX: 150,
           },
         ],
         duration: 1900,
