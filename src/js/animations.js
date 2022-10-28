@@ -115,29 +115,18 @@ observer.observe(document.querySelector('.center-ct'));
 //About animation
 const observer1 = new IntersectionObserver(entries => {
   entries.forEach(entry => {
-    // let diagramItems = entry.target.querySelectorAll('.diagram__item');
-
     if (entry.isIntersecting) {
-      anime({
-        targets: '.about__container',
-        keyframes: [
-          {
-            opacity: 1,
-            translateX: 150,
-          },
-        ],
-        duration: 1900,
-        easing: 'easeInOutCubic'
-      });
-      
-    return; // if we added the class, exit the function
+      entry.target.classList.add('show');
+    } else {
+      entry.target.classList.remove('show');
     }
 
     // We're not intersecting, so remove the class!
     // square.classList.remove('square-animation');
   });
 });
-observer1.observe(document.querySelector('.about__container'));
+const hiddenAbout = document.querySelector('.about__container');
+observer1.observe(hiddenAbout);
 
 
 
