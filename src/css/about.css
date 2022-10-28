@@ -13,7 +13,7 @@ html {
 .about__container{
 	margin: 0 2em;
 	text-align: center;
-
+	left: -300px;
 }
 
 .about__container h4 {
